@@ -1,0 +1,7 @@
+pandas
+pyarrow
+datasets
+tqdm
+huggingface_hub
+
+
