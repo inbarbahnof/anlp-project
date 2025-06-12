@@ -1,149 +1,271 @@
-2025-06-08 14:06:56,289 - INFO - Generated 228 configurations to process
-2025-06-08 14:06:56,292 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.abstract_algebra.parquet')
-2025-06-08 14:06:56,292 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.abstract_algebra.parquet']
-2025-06-08 14:07:13,483 - DEBUG - Attempting to acquire lock 139947944928528 on /home/niso/.cache/huggingface/datasets/_home_niso_.cache_huggingface_datasets_nlphuji___dove_lite_default-c289c39a86767630_0.0.0_e11e13a8267089e422b453558aabc5c3bdddb483.lock
-2025-06-08 14:07:13,483 - DEBUG - Lock 139947944928528 acquired on /home/niso/.cache/huggingface/datasets/_home_niso_.cache_huggingface_datasets_nlphuji___dove_lite_default-c289c39a86767630_0.0.0_e11e13a8267089e422b453558aabc5c3bdddb483.lock
-2025-06-08 14:07:13,484 - DEBUG - Attempting to release lock 139947944928528 on /home/niso/.cache/huggingface/datasets/_home_niso_.cache_huggingface_datasets_nlphuji___dove_lite_default-c289c39a86767630_0.0.0_e11e13a8267089e422b453558aabc5c3bdddb483.lock
-2025-06-08 14:07:13,484 - DEBUG - Lock 139947944928528 released on /home/niso/.cache/huggingface/datasets/_home_niso_.cache_huggingface_datasets_nlphuji___dove_lite_default-c289c39a86767630_0.0.0_e11e13a8267089e422b453558aabc5c3bdddb483.lock
-2025-06-08 14:07:13,487 - DEBUG - Attempting to acquire lock 139947945625232 on /home/niso/.cache/huggingface/datasets/nlphuji___dove_lite/default-c289c39a86767630/0.0.0/e11e13a8267089e422b453558aabc5c3bdddb483_builder.lock
-2025-06-08 14:07:13,487 - DEBUG - Lock 139947945625232 acquired on /home/niso/.cache/huggingface/datasets/nlphuji___dove_lite/default-c289c39a86767630/0.0.0/e11e13a8267089e422b453558aabc5c3bdddb483_builder.lock
-2025-06-08 14:07:13,488 - DEBUG - Attempting to release lock 139947945625232 on /home/niso/.cache/huggingface/datasets/nlphuji___dove_lite/default-c289c39a86767630/0.0.0/e11e13a8267089e422b453558aabc5c3bdddb483_builder.lock
-2025-06-08 14:07:13,488 - DEBUG - Lock 139947945625232 released on /home/niso/.cache/huggingface/datasets/nlphuji___dove_lite/default-c289c39a86767630/0.0.0/e11e13a8267089e422b453558aabc5c3bdddb483_builder.lock
-2025-06-08 14:07:13,509 - INFO - Successfully loaded 382200 examples
-2025-06-08 14:07:14,244 - INFO - Filtering results: 382200 rows remaining
-2025-06-08 14:07:14,423 - DEBUG - Removed 0 duplicates
-2025-06-08 14:07:14,423 - INFO - Loaded 382200 rows in 18.13 seconds
-2025-06-08 14:07:14,606 - INFO - Grouping by sample_index and calculating average scores
-2025-06-08 14:07:14,710 - INFO - Grouped 382200 rows into 100 unique samples
-2025-06-08 14:07:14,710 - INFO - Average score range: 0.073 - 0.701
-2025-06-08 14:07:14,710 - INFO - Finding low performers with average score < 0.5
-2025-06-08 14:07:14,711 - INFO - Found 91/100 low-performing samples (91.0%)
-2025-06-08 14:07:14,711 - INFO -   Sample 0: Average score 0.184
-2025-06-08 14:07:14,712 - INFO -   Sample 1: Average score 0.240
-2025-06-08 14:07:14,712 - INFO -   Sample 2: Average score 0.215
-2025-06-08 14:07:14,712 - INFO -   Sample 3: Average score 0.176
-2025-06-08 14:07:14,712 - INFO -   Sample 4: Average score 0.298
-2025-06-08 14:07:14,712 - INFO -   ... and 86 more
-2025-06-08 14:07:14,716 - INFO - Saved 91 samples to ../app/results_local/nlphuji_DOVE_Lite/en/Shots_0/OLMoE-1B-7B-0924-Instruct/mmlu.abstract_algebra/low_performance_questions_0.1.parquet
-2025-06-08 14:07:14,716 - INFO - Columns saved: ['sample_index', 'average_score', 'question']
-2025-06-08 14:07:14,787 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.anatomy.parquet')
-2025-06-08 14:07:14,788 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.anatomy.parquet']
-2025-06-08 14:07:18,443 - DEBUG - Attempting to acquire lock 139947945635472 on /home/niso/.cache/huggingface/datasets/_home_niso_.cache_huggingface_datasets_nlphuji___dove_lite_default-3c0d3e7f1afd8e3e_0.0.0_e11e13a8267089e422b453558aabc5c3bdddb483.lock
-2025-06-08 14:07:18,444 - DEBUG - Lock 139947945635472 acquired on /home/niso/.cache/huggingface/datasets/_home_niso_.cache_huggingface_datasets_nlphuji___dove_lite_default-3c0d3e7f1afd8e3e_0.0.0_e11e13a8267089e422b453558aabc5c3bdddb483.lock
-2025-06-08 14:07:18,444 - DEBUG - Attempting to release lock 139947945635472 on /home/niso/.cache/huggingface/datasets/_home_niso_.cache_huggingface_datasets_nlphuji___dove_lite_default-3c0d3e7f1afd8e3e_0.0.0_e11e13a8267089e422b453558aabc5c3bdddb483.lock
-2025-06-08 14:07:18,444 - DEBUG - Lock 139947945635472 released on /home/niso/.cache/huggingface/datasets/_home_niso_.cache_huggingface_datasets_nlphuji___dove_lite_default-3c0d3e7f1afd8e3e_0.0.0_e11e13a8267089e422b453558aabc5c3bdddb483.lock
-2025-06-08 14:07:18,445 - DEBUG - Attempting to acquire lock 139947945788384 on /home/niso/.cache/huggingface/datasets/nlphuji___dove_lite/default-3c0d3e7f1afd8e3e/0.0.0/e11e13a8267089e422b453558aabc5c3bdddb483_builder.lock
-2025-06-08 14:07:18,446 - DEBUG - Lock 139947945788384 acquired on /home/niso/.cache/huggingface/datasets/nlphuji___dove_lite/default-3c0d3e7f1afd8e3e/0.0.0/e11e13a8267089e422b453558aabc5c3bdddb483_builder.lock
-2025-06-08 14:07:18,628 - DEBUG - Attempting to acquire lock 139947932616080 on /home/niso/.cache/huggingface/hub/.locks/datasets--nlphuji--DOVE_Lite/ed26031891c67e87baa8fd03fa1ebba0a8a6bb0480a901c673d7282c2b773b50.lock
-2025-06-08 14:07:18,629 - DEBUG - Lock 139947932616080 acquired on /home/niso/.cache/huggingface/hub/.locks/datasets--nlphuji--DOVE_Lite/ed26031891c67e87baa8fd03fa1ebba0a8a6bb0480a901c673d7282c2b773b50.lock
-2025-06-08 14:09:38,330 - DEBUG - Attempting to release lock 139947932616080 on /home/niso/.cache/huggingface/hub/.locks/datasets--nlphuji--DOVE_Lite/ed26031891c67e87baa8fd03fa1ebba0a8a6bb0480a901c673d7282c2b773b50.lock
-2025-06-08 14:09:38,331 - DEBUG - Lock 139947932616080 released on /home/niso/.cache/huggingface/hub/.locks/datasets--nlphuji--DOVE_Lite/ed26031891c67e87baa8fd03fa1ebba0a8a6bb0480a901c673d7282c2b773b50.lock
-2025-06-08 14:09:38,898 - DEBUG - Attempting to acquire lock 139947945802976 on /home/niso/.cache/huggingface/datasets/nlphuji___dove_lite/default-3c0d3e7f1afd8e3e/0.0.0/e11e13a8267089e422b453558aabc5c3bdddb483.incomplete_info.lock
-2025-06-08 14:09:38,898 - DEBUG - Lock 139947945802976 acquired on /home/niso/.cache/huggingface/datasets/nlphuji___dove_lite/default-3c0d3e7f1afd8e3e/0.0.0/e11e13a8267089e422b453558aabc5c3bdddb483.incomplete_info.lock
-2025-06-08 14:09:38,898 - DEBUG - Attempting to release lock 139947945802976 on /home/niso/.cache/huggingface/datasets/nlphuji___dove_lite/default-3c0d3e7f1afd8e3e/0.0.0/e11e13a8267089e422b453558aabc5c3bdddb483.incomplete_info.lock
-2025-06-08 14:09:38,898 - DEBUG - Lock 139947945802976 released on /home/niso/.cache/huggingface/datasets/nlphuji___dove_lite/default-3c0d3e7f1afd8e3e/0.0.0/e11e13a8267089e422b453558aabc5c3bdddb483.incomplete_info.lock
-2025-06-08 14:09:38,899 - DEBUG - Attempting to release lock 139947945788384 on /home/niso/.cache/huggingface/datasets/nlphuji___dove_lite/default-3c0d3e7f1afd8e3e/0.0.0/e11e13a8267089e422b453558aabc5c3bdddb483_builder.lock
-2025-06-08 14:09:38,899 - DEBUG - Lock 139947945788384 released on /home/niso/.cache/huggingface/datasets/nlphuji___dove_lite/default-3c0d3e7f1afd8e3e/0.0.0/e11e13a8267089e422b453558aabc5c3bdddb483_builder.lock
-2025-06-08 14:09:38,911 - INFO - Successfully loaded 382200 examples
-2025-06-08 14:09:39,375 - INFO - Filtering results: 382200 rows remaining
-2025-06-08 14:09:39,493 - DEBUG - Removed 0 duplicates
-2025-06-08 14:09:39,493 - INFO - Loaded 382200 rows in 144.71 seconds
-2025-06-08 14:09:39,610 - INFO - Grouping by sample_index and calculating average scores
-2025-06-08 14:09:39,663 - INFO - Grouped 382200 rows into 100 unique samples
-2025-06-08 14:09:39,663 - INFO - Average score range: 0.035 - 0.949
-2025-06-08 14:09:39,663 - INFO - Finding low performers with average score < 0.5
-2025-06-08 14:09:39,664 - INFO - Found 59/100 low-performing samples (59.0%)
-2025-06-08 14:09:39,664 - INFO -   Sample 103: Average score 0.435
-2025-06-08 14:09:39,664 - INFO -   Sample 105: Average score 0.053
-2025-06-08 14:09:39,664 - INFO -   Sample 106: Average score 0.460
-2025-06-08 14:09:39,664 - INFO -   Sample 108: Average score 0.216
-2025-06-08 14:09:39,664 - INFO -   Sample 109: Average score 0.310
-2025-06-08 14:09:39,664 - INFO -   ... and 54 more
-2025-06-08 14:09:39,666 - INFO - Saved 59 samples to ../app/results_local/nlphuji_DOVE_Lite/en/Shots_0/OLMoE-1B-7B-0924-Instruct/mmlu.anatomy/low_performance_questions_0.1.parquet
-2025-06-08 14:09:39,666 - INFO - Columns saved: ['sample_index', 'average_score', 'question']
-2025-06-08 14:09:39,711 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.astronomy.parquet')
-2025-06-08 14:09:39,711 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.astronomy.parquet']
-2025-06-08 14:09:41,643 - DEBUG - Attempting to acquire lock 139947127954544 on /home/niso/.cache/huggingface/datasets/_home_niso_.cache_huggingface_datasets_nlphuji___dove_lite_default-d5d1a99fe06939cc_0.0.0_e11e13a8267089e422b453558aabc5c3bdddb483.lock
-2025-06-08 14:09:41,643 - DEBUG - Lock 139947127954544 acquired on /home/niso/.cache/huggingface/datasets/_home_niso_.cache_huggingface_datasets_nlphuji___dove_lite_default-d5d1a99fe06939cc_0.0.0_e11e13a8267089e422b453558aabc5c3bdddb483.lock
-2025-06-08 14:09:41,644 - DEBUG - Attempting to release lock 139947127954544 on /home/niso/.cache/huggingface/datasets/_home_niso_.cache_huggingface_datasets_nlphuji___dove_lite_default-d5d1a99fe06939cc_0.0.0_e11e13a8267089e422b453558aabc5c3bdddb483.lock
-2025-06-08 14:09:41,644 - DEBUG - Lock 139947127954544 released on /home/niso/.cache/huggingface/datasets/_home_niso_.cache_huggingface_datasets_nlphuji___dove_lite_default-d5d1a99fe06939cc_0.0.0_e11e13a8267089e422b453558aabc5c3bdddb483.lock
-2025-06-08 14:09:41,645 - DEBUG - Attempting to acquire lock 139947945618128 on /home/niso/.cache/huggingface/datasets/nlphuji___dove_lite/default-d5d1a99fe06939cc/0.0.0/e11e13a8267089e422b453558aabc5c3bdddb483_builder.lock
-2025-06-08 14:09:41,646 - DEBUG - Lock 139947945618128 acquired on /home/niso/.cache/huggingface/datasets/nlphuji___dove_lite/default-d5d1a99fe06939cc/0.0.0/e11e13a8267089e422b453558aabc5c3bdddb483_builder.lock
-2025-06-08 14:09:42,749 - DEBUG - Attempting to acquire lock 139947945617856 on /home/niso/.cache/huggingface/datasets/nlphuji___dove_lite/default-d5d1a99fe06939cc/0.0.0/e11e13a8267089e422b453558aabc5c3bdddb483.incomplete_info.lock
-2025-06-08 14:09:42,749 - DEBUG - Lock 139947945617856 acquired on /home/niso/.cache/huggingface/datasets/nlphuji___dove_lite/default-d5d1a99fe06939cc/0.0.0/e11e13a8267089e422b453558aabc5c3bdddb483.incomplete_info.lock
-2025-06-08 14:09:42,749 - DEBUG - Attempting to release lock 139947945617856 on /home/niso/.cache/huggingface/datasets/nlphuji___dove_lite/default-d5d1a99fe06939cc/0.0.0/e11e13a8267089e422b453558aabc5c3bdddb483.incomplete_info.lock
-2025-06-08 14:09:42,749 - DEBUG - Lock 139947945617856 released on /home/niso/.cache/huggingface/datasets/nlphuji___dove_lite/default-d5d1a99fe06939cc/0.0.0/e11e13a8267089e422b453558aabc5c3bdddb483.incomplete_info.lock
-2025-06-08 14:09:42,749 - DEBUG - Attempting to release lock 139947945618128 on /home/niso/.cache/huggingface/datasets/nlphuji___dove_lite/default-d5d1a99fe06939cc/0.0.0/e11e13a8267089e422b453558aabc5c3bdddb483_builder.lock
-2025-06-08 14:09:42,749 - DEBUG - Lock 139947945618128 released on /home/niso/.cache/huggingface/datasets/nlphuji___dove_lite/default-d5d1a99fe06939cc/0.0.0/e11e13a8267089e422b453558aabc5c3bdddb483_builder.lock
-2025-06-08 14:09:42,762 - INFO - Successfully loaded 382200 examples
-2025-06-08 14:09:43,283 - INFO - Filtering results: 382200 rows remaining
-2025-06-08 14:09:43,382 - DEBUG - Removed 0 duplicates
-2025-06-08 14:09:43,382 - INFO - Loaded 382200 rows in 3.67 seconds
-2025-06-08 14:09:43,498 - INFO - Grouping by sample_index and calculating average scores
-2025-06-08 14:09:43,554 - INFO - Grouped 382200 rows into 100 unique samples
-2025-06-08 14:09:43,554 - INFO - Average score range: 0.056 - 0.952
-2025-06-08 14:09:43,554 - INFO - Finding low performers with average score < 0.5
-2025-06-08 14:09:43,554 - INFO - Found 63/100 low-performing samples (63.0%)
-2025-06-08 14:09:43,554 - INFO -   Sample 238: Average score 0.069
-2025-06-08 14:09:43,555 - INFO -   Sample 239: Average score 0.324
-2025-06-08 14:09:43,555 - INFO -   Sample 240: Average score 0.424
-2025-06-08 14:09:43,555 - INFO -   Sample 243: Average score 0.111
-2025-06-08 14:09:43,555 - INFO -   Sample 244: Average score 0.412
-2025-06-08 14:09:43,555 - INFO -   ... and 58 more
-2025-06-08 14:09:43,556 - INFO - Saved 63 samples to ../app/results_local/nlphuji_DOVE_Lite/en/Shots_0/OLMoE-1B-7B-0924-Instruct/mmlu.astronomy/low_performance_questions_0.1.parquet
-2025-06-08 14:09:43,556 - INFO - Columns saved: ['sample_index', 'average_score', 'question']
-2025-06-08 14:09:43,603 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.business_ethics.parquet')
-2025-06-08 14:09:43,603 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.business_ethics.parquet']
-2025-06-08 14:09:44,558 - DEBUG - Attempting to acquire lock 139947948060752 on /home/niso/.cache/huggingface/datasets/_home_niso_.cache_huggingface_datasets_nlphuji___dove_lite_default-535d6ae149619dec_0.0.0_e11e13a8267089e422b453558aabc5c3bdddb483.lock
-2025-06-08 14:09:44,558 - DEBUG - Lock 139947948060752 acquired on /home/niso/.cache/huggingface/datasets/_home_niso_.cache_huggingface_datasets_nlphuji___dove_lite_default-535d6ae149619dec_0.0.0_e11e13a8267089e422b453558aabc5c3bdddb483.lock
-2025-06-08 14:09:44,558 - DEBUG - Attempting to release lock 139947948060752 on /home/niso/.cache/huggingface/datasets/_home_niso_.cache_huggingface_datasets_nlphuji___dove_lite_default-535d6ae149619dec_0.0.0_e11e13a8267089e422b453558aabc5c3bdddb483.lock
-2025-06-08 14:09:44,558 - DEBUG - Lock 139947948060752 released on /home/niso/.cache/huggingface/datasets/_home_niso_.cache_huggingface_datasets_nlphuji___dove_lite_default-535d6ae149619dec_0.0.0_e11e13a8267089e422b453558aabc5c3bdddb483.lock
-2025-06-08 14:09:44,559 - DEBUG - Attempting to acquire lock 139947948060752 on /home/niso/.cache/huggingface/datasets/nlphuji___dove_lite/default-535d6ae149619dec/0.0.0/e11e13a8267089e422b453558aabc5c3bdddb483_builder.lock
-2025-06-08 14:09:44,559 - DEBUG - Lock 139947948060752 acquired on /home/niso/.cache/huggingface/datasets/nlphuji___dove_lite/default-535d6ae149619dec/0.0.0/e11e13a8267089e422b453558aabc5c3bdddb483_builder.lock
-2025-06-08 14:09:44,725 - DEBUG - Attempting to acquire lock 139947945638032 on /home/niso/.cache/huggingface/hub/.locks/datasets--nlphuji--DOVE_Lite/4535f5a0ecdc3e056f0ecbf7bed92b0a1909d9d50804cf543e7d8b97d2a74bd5.lock
-2025-06-08 14:09:44,725 - DEBUG - Lock 139947945638032 acquired on /home/niso/.cache/huggingface/hub/.locks/datasets--nlphuji--DOVE_Lite/4535f5a0ecdc3e056f0ecbf7bed92b0a1909d9d50804cf543e7d8b97d2a74bd5.lock
-2025-06-08 14:11:13,557 - WARNING - Error while downloading from https://cdn-lfs-us-1.hf.co/repos/65/47/654791b19c29621797ffb7830b7161ac18b3a0c55995b4385d76bd8ba7fa26ec/4535f5a0ecdc3e056f0ecbf7bed92b0a1909d9d50804cf543e7d8b97d2a74bd5?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27mmlu.business_ethics.parquet%3B+filename%3D%22mmlu.business_ethics.parquet%22%3B&Expires=1749384584&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0OTM4NDU4NH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzY1LzQ3LzY1NDc5MWIxOWMyOTYyMTc5N2ZmYjc4MzBiNzE2MWFjMThiM2EwYzU1OTk1YjQzODVkNzZiZDhiYTdmYTI2ZWMvNDUzNWY1YTBlY2RjM2UwNTZmMGVjYmY3YmVkOTJiMGExOTA5ZDlkNTA4MDRjZjU0M2U3ZDhiOTdkMmE3NGJkNT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=ljqFTxw2s0ZqTcHswRc8KlRDWP-H2pc1Uv5Fvjd5OoGVHet985%7ErJNNU1s6TPP7GG1stOHR3PQbE3XSM7HSWybJWLwxiASr3wDY4IXrKsIKrTTYlqwqAreZf686iITbqa4xyoMpztkmRbUmxRx01o1yVOM3YdJps8MHHp4XxigpM9ajlRpg%7E9hBg7Zzm0jLg5vSmpaVImx8uFKi-Prhdb4xVICT-dmWyopm5lNQ1v9Kl14swUWMyh5evQ%7Eu4rpFcuv6HLq3nE%7EH%7EAZ8OJsgpCUUDO29AXsacVtXZ6MY%7EQ1c3QRa0nN4dQyVHgA-6Ba7493nkW4ucQUf%7EldV5ZXju6A__&Key-Pair-Id=K24J24Z295AEI9: HTTPSConnectionPool(host='cdn-lfs-us-1.hf.co', port=443): Read timed out.
-Trying to resume download...
-2025-06-08 14:12:57,978 - WARNING - Error while downloading from https://cdn-lfs-us-1.hf.co/repos/65/47/654791b19c29621797ffb7830b7161ac18b3a0c55995b4385d76bd8ba7fa26ec/4535f5a0ecdc3e056f0ecbf7bed92b0a1909d9d50804cf543e7d8b97d2a74bd5?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27mmlu.business_ethics.parquet%3B+filename%3D%22mmlu.business_ethics.parquet%22%3B&Expires=1749384584&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0OTM4NDU4NH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzY1LzQ3LzY1NDc5MWIxOWMyOTYyMTc5N2ZmYjc4MzBiNzE2MWFjMThiM2EwYzU1OTk1YjQzODVkNzZiZDhiYTdmYTI2ZWMvNDUzNWY1YTBlY2RjM2UwNTZmMGVjYmY3YmVkOTJiMGExOTA5ZDlkNTA4MDRjZjU0M2U3ZDhiOTdkMmE3NGJkNT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=ljqFTxw2s0ZqTcHswRc8KlRDWP-H2pc1Uv5Fvjd5OoGVHet985%7ErJNNU1s6TPP7GG1stOHR3PQbE3XSM7HSWybJWLwxiASr3wDY4IXrKsIKrTTYlqwqAreZf686iITbqa4xyoMpztkmRbUmxRx01o1yVOM3YdJps8MHHp4XxigpM9ajlRpg%7E9hBg7Zzm0jLg5vSmpaVImx8uFKi-Prhdb4xVICT-dmWyopm5lNQ1v9Kl14swUWMyh5evQ%7Eu4rpFcuv6HLq3nE%7EH%7EAZ8OJsgpCUUDO29AXsacVtXZ6MY%7EQ1c3QRa0nN4dQyVHgA-6Ba7493nkW4ucQUf%7EldV5ZXju6A__&Key-Pair-Id=K24J24Z295AEI9: HTTPSConnectionPool(host='cdn-lfs-us-1.hf.co', port=443): Read timed out.
-Trying to resume download...
-2025-06-08 14:13:54,192 - DEBUG - Attempting to release lock 139947945638032 on /home/niso/.cache/huggingface/hub/.locks/datasets--nlphuji--DOVE_Lite/4535f5a0ecdc3e056f0ecbf7bed92b0a1909d9d50804cf543e7d8b97d2a74bd5.lock
-2025-06-08 14:13:54,192 - DEBUG - Lock 139947945638032 released on /home/niso/.cache/huggingface/hub/.locks/datasets--nlphuji--DOVE_Lite/4535f5a0ecdc3e056f0ecbf7bed92b0a1909d9d50804cf543e7d8b97d2a74bd5.lock
-2025-06-08 14:13:54,799 - DEBUG - Attempting to acquire lock 139947945605504 on /home/niso/.cache/huggingface/datasets/nlphuji___dove_lite/default-535d6ae149619dec/0.0.0/e11e13a8267089e422b453558aabc5c3bdddb483.incomplete_info.lock
-2025-06-08 14:13:54,799 - DEBUG - Lock 139947945605504 acquired on /home/niso/.cache/huggingface/datasets/nlphuji___dove_lite/default-535d6ae149619dec/0.0.0/e11e13a8267089e422b453558aabc5c3bdddb483.incomplete_info.lock
-2025-06-08 14:13:54,800 - DEBUG - Attempting to release lock 139947945605504 on /home/niso/.cache/huggingface/datasets/nlphuji___dove_lite/default-535d6ae149619dec/0.0.0/e11e13a8267089e422b453558aabc5c3bdddb483.incomplete_info.lock
-2025-06-08 14:13:54,800 - DEBUG - Lock 139947945605504 released on /home/niso/.cache/huggingface/datasets/nlphuji___dove_lite/default-535d6ae149619dec/0.0.0/e11e13a8267089e422b453558aabc5c3bdddb483.incomplete_info.lock
-2025-06-08 14:13:54,800 - DEBUG - Attempting to release lock 139947948060752 on /home/niso/.cache/huggingface/datasets/nlphuji___dove_lite/default-535d6ae149619dec/0.0.0/e11e13a8267089e422b453558aabc5c3bdddb483_builder.lock
-2025-06-08 14:13:54,800 - DEBUG - Lock 139947948060752 released on /home/niso/.cache/huggingface/datasets/nlphuji___dove_lite/default-535d6ae149619dec/0.0.0/e11e13a8267089e422b453558aabc5c3bdddb483_builder.lock
-2025-06-08 14:13:54,815 - INFO - Successfully loaded 382200 examples
-2025-06-08 14:13:55,307 - INFO - Filtering results: 382200 rows remaining
-2025-06-08 14:13:55,411 - DEBUG - Removed 0 duplicates
-2025-06-08 14:13:55,411 - INFO - Loaded 382200 rows in 251.81 seconds
-2025-06-08 14:13:55,525 - INFO - Grouping by sample_index and calculating average scores
-2025-06-08 14:13:55,581 - INFO - Grouped 382200 rows into 100 unique samples
-2025-06-08 14:13:55,581 - INFO - Average score range: 0.075 - 0.922
-2025-06-08 14:13:55,581 - INFO - Finding low performers with average score < 0.5
-2025-06-08 14:13:55,581 - INFO - Found 68/100 low-performing samples (68.0%)
-2025-06-08 14:13:55,581 - INFO -   Sample 387: Average score 0.291
-2025-06-08 14:13:55,582 - INFO -   Sample 388: Average score 0.489
-2025-06-08 14:13:55,582 - INFO -   Sample 389: Average score 0.348
-2025-06-08 14:13:55,582 - INFO -   Sample 391: Average score 0.443
-2025-06-08 14:13:55,582 - INFO -   Sample 392: Average score 0.343
-2025-06-08 14:13:55,582 - INFO -   ... and 63 more
-2025-06-08 14:13:55,583 - INFO - Saved 68 samples to ../app/results_local/nlphuji_DOVE_Lite/en/Shots_0/OLMoE-1B-7B-0924-Instruct/mmlu.business_ethics/low_performance_questions_0.1.parquet
-2025-06-08 14:13:55,584 - INFO - Columns saved: ['sample_index', 'average_score', 'question']
-2025-06-08 14:13:55,631 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.clinical_knowledge.parquet')
-2025-06-08 14:13:55,631 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.clinical_knowledge.parquet']
-2025-06-08 14:13:58,677 - DEBUG - Attempting to acquire lock 139947127654832 on /home/niso/.cache/huggingface/datasets/_home_niso_.cache_huggingface_datasets_nlphuji___dove_lite_default-c3f68a717b45cd59_0.0.0_e11e13a8267089e422b453558aabc5c3bdddb483.lock
-2025-06-08 14:13:58,682 - DEBUG - Lock 139947127654832 acquired on /home/niso/.cache/huggingface/datasets/_home_niso_.cache_huggingface_datasets_nlphuji___dove_lite_default-c3f68a717b45cd59_0.0.0_e11e13a8267089e422b453558aabc5c3bdddb483.lock
-2025-06-08 14:13:58,682 - DEBUG - Attempting to release lock 139947127654832 on /home/niso/.cache/huggingface/datasets/_home_niso_.cache_huggingface_datasets_nlphuji___dove_lite_default-c3f68a717b45cd59_0.0.0_e11e13a8267089e422b453558aabc5c3bdddb483.lock
-2025-06-08 14:13:58,682 - DEBUG - Lock 139947127654832 released on /home/niso/.cache/huggingface/datasets/_home_niso_.cache_huggingface_datasets_nlphuji___dove_lite_default-c3f68a717b45cd59_0.0.0_e11e13a8267089e422b453558aabc5c3bdddb483.lock
-2025-06-08 14:13:58,683 - DEBUG - Attempting to acquire lock 139947948342448 on /home/niso/.cache/huggingface/datasets/nlphuji___dove_lite/default-c3f68a717b45cd59/0.0.0/e11e13a8267089e422b453558aabc5c3bdddb483_builder.lock
-2025-06-08 14:13:58,684 - DEBUG - Lock 139947948342448 acquired on /home/niso/.cache/huggingface/datasets/nlphuji___dove_lite/default-c3f68a717b45cd59/0.0.0/e11e13a8267089e422b453558aabc5c3bdddb483_builder.lock
-2025-06-08 14:13:59,079 - DEBUG - Attempting to acquire lock 139947127811408 on /home/niso/.cache/huggingface/hub/.locks/datasets--nlphuji--DOVE_Lite/6df8c6c16a37ef153b94d57b088a71fdfe53d75a3281272fd0771e1132d3d160.lock
-2025-06-08 14:13:59,084 - DEBUG - Lock 139947127811408 acquired on /home/niso/.cache/huggingface/hub/.locks/datasets--nlphuji--DOVE_Lite/6df8c6c16a37ef153b94d57b088a71fdfe53d75a3281272fd0771e1132d3d160.lock
-2025-06-08 14:17:07,545 - WARNING - Error while downloading from https://cdn-lfs-us-1.hf.co/repos/65/47/654791b19c29621797ffb7830b7161ac18b3a0c55995b4385d76bd8ba7fa26ec/6df8c6c16a37ef153b94d57b088a71fdfe53d75a3281272fd0771e1132d3d160?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27mmlu.clinical_knowledge.parquet%3B+filename%3D%22mmlu.clinical_knowledge.parquet%22%3B&Expires=1749384838&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0OTM4NDgzOH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzY1LzQ3LzY1NDc5MWIxOWMyOTYyMTc5N2ZmYjc4MzBiNzE2MWFjMThiM2EwYzU1OTk1YjQzODVkNzZiZDhiYTdmYTI2ZWMvNmRmOGM2YzE2YTM3ZWYxNTNiOTRkNTdiMDg4YTcxZmRmZTUzZDc1YTMyODEyNzJmZDA3NzFlMTEzMmQzZDE2MD9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=BCjiey7Kfh9OgrLBi42YPAh6kvhefX93xLH4kz%7E2tp-DnF7WAoYwVpXfT2qutF5bVyPKFWxVbRrnPCGW68kTHzMQtNVGBV6i7nvKw%7EKBrgyEg2hKu2kGq-WUiWt7cDOrhFe1-BnyAfXHDL20Wp2rz9vH6l6zTY5WSAhasUeWYTH9Z2Cwfir2NbGuIyaMOBpuwNhshPNnG95f2Z1E7UMhFC64ESK5FjEvoGuo0PcHRxbzpJ8AVsvc3fjCNySPFP1sfUPjs%7E4brpqI09rGGL93JiPs0Y-wYgpES6yCKcK8RWSobyaxW5jv9n2OK2HuyJrA1tNl6DbYs6yQ%7EbjEDP7R1w__&Key-Pair-Id=K24J24Z295AEI9: HTTPSConnectionPool(host='cdn-lfs-us-1.hf.co', port=443): Read timed out.
-Trying to resume download...
-2025-06-08 14:17:16,554 - DEBUG - Attempting to release lock 139947127811408 on /home/niso/.cache/huggingface/hub/.locks/datasets--nlphuji--DOVE_Lite/6df8c6c16a37ef153b94d57b088a71fdfe53d75a3281272fd0771e1132d3d160.lock
-2025-06-08 14:17:16,554 - DEBUG - Lock 139947127811408 released on /home/niso/.cache/huggingface/hub/.locks/datasets--nlphuji--DOVE_Lite/6df8c6c16a37ef153b94d57b088a71fdfe53d75a3281272fd0771e1132d3d160.lock
-2025-06-08 14:17:16,554 - DEBUG - Attempting to release lock 139947948342448 on /home/niso/.cache/huggingface/datasets/nlphuji___dove_lite/default-c3f68a717b45cd59/0.0.0/e11e13a8267089e422b453558aabc5c3bdddb483_builder.lock
-2025-06-08 14:17:16,554 - DEBUG - Lock 139947948342448 released on /home/niso/.cache/huggingface/datasets/nlphuji___dove_lite/default-c3f68a717b45cd59/0.0.0/e11e13a8267089e422b453558aabc5c3bdddb483_builder.lock
+2025-06-08 15:25:03,484 - INFO - Generated 228 configurations to process
+2025-06-08 15:25:03,492 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.abstract_algebra.parquet')
+2025-06-08 15:25:03,492 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.abstract_algebra.parquet']
+2025-06-08 15:25:04,176 - DEBUG - Attempting to acquire lock 1884018673712 on C:\Users\inbar\.cache\huggingface\hub\.locks\datasets--nlphuji--DOVE_Lite\d49197aebbb154f34eaa9fad82ae159bf6c1575c.lock
+2025-06-08 15:25:04,179 - DEBUG - Lock 1884018673712 acquired on C:\Users\inbar\.cache\huggingface\hub\.locks\datasets--nlphuji--DOVE_Lite\d49197aebbb154f34eaa9fad82ae159bf6c1575c.lock
+2025-06-08 15:25:04,370 - DEBUG - Attempting to release lock 1884018673712 on C:\Users\inbar\.cache\huggingface\hub\.locks\datasets--nlphuji--DOVE_Lite\d49197aebbb154f34eaa9fad82ae159bf6c1575c.lock
+2025-06-08 15:25:04,371 - DEBUG - Lock 1884018673712 released on C:\Users\inbar\.cache\huggingface\hub\.locks\datasets--nlphuji--DOVE_Lite\d49197aebbb154f34eaa9fad82ae159bf6c1575c.lock
+2025-06-08 15:25:04,670 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:04,671 - WARNING - No data found for specified configuration
+2025-06-08 15:25:04,680 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.anatomy.parquet')
+2025-06-08 15:25:04,680 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.anatomy.parquet']
+2025-06-08 15:25:05,074 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:05,076 - WARNING - No data found for specified configuration
+2025-06-08 15:25:05,077 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.astronomy.parquet')
+2025-06-08 15:25:05,077 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.astronomy.parquet']
+2025-06-08 15:25:05,579 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:05,579 - WARNING - No data found for specified configuration
+2025-06-08 15:25:05,582 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.business_ethics.parquet')
+2025-06-08 15:25:05,582 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.business_ethics.parquet']
+2025-06-08 15:25:05,985 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:05,985 - WARNING - No data found for specified configuration
+2025-06-08 15:25:05,986 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.clinical_knowledge.parquet')
+2025-06-08 15:25:05,986 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.clinical_knowledge.parquet']
+2025-06-08 15:25:06,394 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:06,395 - WARNING - No data found for specified configuration
+2025-06-08 15:25:06,395 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.college_biology.parquet')
+2025-06-08 15:25:06,395 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.college_biology.parquet']
+2025-06-08 15:25:06,810 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:06,810 - WARNING - No data found for specified configuration
+2025-06-08 15:25:06,811 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.college_chemistry.parquet')
+2025-06-08 15:25:06,811 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.college_chemistry.parquet']
+2025-06-08 15:25:07,320 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:07,321 - WARNING - No data found for specified configuration
+2025-06-08 15:25:07,322 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.college_computer_science.parquet')
+2025-06-08 15:25:07,322 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.college_computer_science.parquet']
+2025-06-08 15:25:08,007 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:08,007 - WARNING - No data found for specified configuration
+2025-06-08 15:25:08,008 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.college_mathematics.parquet')
+2025-06-08 15:25:08,009 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.college_mathematics.parquet']
+2025-06-08 15:25:08,319 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:08,319 - WARNING - No data found for specified configuration
+2025-06-08 15:25:08,321 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.college_medicine.parquet')
+2025-06-08 15:25:08,321 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.college_medicine.parquet']
+2025-06-08 15:25:08,755 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:08,756 - WARNING - No data found for specified configuration
+2025-06-08 15:25:08,756 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.college_physics.parquet')
+2025-06-08 15:25:08,756 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.college_physics.parquet']
+2025-06-08 15:25:09,176 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:09,176 - WARNING - No data found for specified configuration
+2025-06-08 15:25:09,177 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.computer_security.parquet')
+2025-06-08 15:25:09,177 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.computer_security.parquet']
+2025-06-08 15:25:09,791 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:09,791 - WARNING - No data found for specified configuration
+2025-06-08 15:25:09,792 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.conceptual_physics.parquet')
+2025-06-08 15:25:09,793 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.conceptual_physics.parquet']
+2025-06-08 15:25:10,194 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:10,195 - WARNING - No data found for specified configuration
+2025-06-08 15:25:10,195 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.econometrics.parquet')
+2025-06-08 15:25:10,195 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.econometrics.parquet']
+2025-06-08 15:25:10,600 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:10,600 - WARNING - No data found for specified configuration
+2025-06-08 15:25:10,601 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.electrical_engineering.parquet')
+2025-06-08 15:25:10,601 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.electrical_engineering.parquet']
+2025-06-08 15:25:11,011 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:11,011 - WARNING - No data found for specified configuration
+2025-06-08 15:25:11,012 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.elementary_mathematics.parquet')
+2025-06-08 15:25:11,013 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.elementary_mathematics.parquet']
+2025-06-08 15:25:11,414 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:11,414 - WARNING - No data found for specified configuration
+2025-06-08 15:25:11,415 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.formal_logic.parquet')
+2025-06-08 15:25:11,415 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.formal_logic.parquet']
+2025-06-08 15:25:11,779 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:11,779 - WARNING - No data found for specified configuration
+2025-06-08 15:25:11,780 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.global_facts.parquet')
+2025-06-08 15:25:11,781 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.global_facts.parquet']
+2025-06-08 15:25:12,238 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:12,239 - WARNING - No data found for specified configuration
+2025-06-08 15:25:12,241 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.high_school_biology.parquet')
+2025-06-08 15:25:12,241 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.high_school_biology.parquet']
+2025-06-08 15:25:12,747 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:12,748 - WARNING - No data found for specified configuration
+2025-06-08 15:25:12,749 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.high_school_chemistry.parquet')
+2025-06-08 15:25:12,749 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.high_school_chemistry.parquet']
+2025-06-08 15:25:13,161 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:13,161 - WARNING - No data found for specified configuration
+2025-06-08 15:25:13,161 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.high_school_computer_science.parquet')
+2025-06-08 15:25:13,161 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.high_school_computer_science.parquet']
+2025-06-08 15:25:13,669 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:13,670 - WARNING - No data found for specified configuration
+2025-06-08 15:25:13,671 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.high_school_european_history.parquet')
+2025-06-08 15:25:13,671 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.high_school_european_history.parquet']
+2025-06-08 15:25:14,294 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:14,295 - WARNING - No data found for specified configuration
+2025-06-08 15:25:14,296 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.high_school_geography.parquet')
+2025-06-08 15:25:14,296 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.high_school_geography.parquet']
+2025-06-08 15:25:14,802 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:14,803 - WARNING - No data found for specified configuration
+2025-06-08 15:25:14,803 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.high_school_government_and_politics.parquet')
+2025-06-08 15:25:14,804 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.high_school_government_and_politics.parquet']
+2025-06-08 15:25:15,311 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:15,312 - WARNING - No data found for specified configuration
+2025-06-08 15:25:15,313 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.high_school_macroeconomics.parquet')
+2025-06-08 15:25:15,314 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.high_school_macroeconomics.parquet']
+2025-06-08 15:25:15,825 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:15,825 - WARNING - No data found for specified configuration
+2025-06-08 15:25:15,827 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.high_school_mathematics.parquet')
+2025-06-08 15:25:15,827 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.high_school_mathematics.parquet']
+2025-06-08 15:25:16,329 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:16,330 - WARNING - No data found for specified configuration
+2025-06-08 15:25:16,331 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.high_school_microeconomics.parquet')
+2025-06-08 15:25:16,331 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.high_school_microeconomics.parquet']
+2025-06-08 15:25:16,694 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:16,695 - WARNING - No data found for specified configuration
+2025-06-08 15:25:16,696 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.high_school_physics.parquet')
+2025-06-08 15:25:16,696 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.high_school_physics.parquet']
+2025-06-08 15:25:17,156 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:17,156 - WARNING - No data found for specified configuration
+2025-06-08 15:25:17,158 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.high_school_psychology.parquet')
+2025-06-08 15:25:17,158 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.high_school_psychology.parquet']
+2025-06-08 15:25:17,565 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:17,566 - WARNING - No data found for specified configuration
+2025-06-08 15:25:17,567 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.high_school_statistics.parquet')
+2025-06-08 15:25:17,567 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.high_school_statistics.parquet']
+2025-06-08 15:25:18,037 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:18,037 - WARNING - No data found for specified configuration
+2025-06-08 15:25:18,038 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.high_school_us_history.parquet')
+2025-06-08 15:25:18,039 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.high_school_us_history.parquet']
+2025-06-08 15:25:18,695 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:18,695 - WARNING - No data found for specified configuration
+2025-06-08 15:25:18,696 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.high_school_world_history.parquet')
+2025-06-08 15:25:18,696 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.high_school_world_history.parquet']
+2025-06-08 15:25:19,401 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:19,402 - WARNING - No data found for specified configuration
+2025-06-08 15:25:19,403 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.human_aging.parquet')
+2025-06-08 15:25:19,403 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.human_aging.parquet']
+2025-06-08 15:25:19,917 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:19,917 - WARNING - No data found for specified configuration
+2025-06-08 15:25:19,918 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.human_sexuality.parquet')
+2025-06-08 15:25:19,918 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.human_sexuality.parquet']
+2025-06-08 15:25:20,328 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:20,329 - WARNING - No data found for specified configuration
+2025-06-08 15:25:20,330 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.international_law.parquet')
+2025-06-08 15:25:20,330 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.international_law.parquet']
+2025-06-08 15:25:20,776 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:20,776 - WARNING - No data found for specified configuration
+2025-06-08 15:25:20,777 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.jurisprudence.parquet')
+2025-06-08 15:25:20,777 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.jurisprudence.parquet']
+2025-06-08 15:25:21,664 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:21,664 - WARNING - No data found for specified configuration
+2025-06-08 15:25:21,667 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.logical_fallacies.parquet')
+2025-06-08 15:25:21,667 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.logical_fallacies.parquet']
+2025-06-08 15:25:22,068 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:22,068 - WARNING - No data found for specified configuration
+2025-06-08 15:25:22,070 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.machine_learning.parquet')
+2025-06-08 15:25:22,070 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.machine_learning.parquet']
+2025-06-08 15:25:22,475 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:22,476 - WARNING - No data found for specified configuration
+2025-06-08 15:25:22,477 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.management.parquet')
+2025-06-08 15:25:22,478 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.management.parquet']
+2025-06-08 15:25:22,889 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:22,889 - WARNING - No data found for specified configuration
+2025-06-08 15:25:22,890 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.marketing.parquet')
+2025-06-08 15:25:22,890 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.marketing.parquet']
+2025-06-08 15:25:23,293 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:23,293 - WARNING - No data found for specified configuration
+2025-06-08 15:25:23,294 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.medical_genetics.parquet')
+2025-06-08 15:25:23,294 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.medical_genetics.parquet']
+2025-06-08 15:25:23,703 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:23,703 - WARNING - No data found for specified configuration
+2025-06-08 15:25:23,704 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.miscellaneous.parquet')
+2025-06-08 15:25:23,704 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.miscellaneous.parquet']
+2025-06-08 15:25:24,218 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:24,218 - WARNING - No data found for specified configuration
+2025-06-08 15:25:24,219 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.moral_disputes.parquet')
+2025-06-08 15:25:24,219 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.moral_disputes.parquet']
+2025-06-08 15:25:24,730 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:24,731 - WARNING - No data found for specified configuration
+2025-06-08 15:25:24,732 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.moral_scenarios.parquet')
+2025-06-08 15:25:24,732 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.moral_scenarios.parquet']
+2025-06-08 15:25:25,067 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:25,068 - WARNING - No data found for specified configuration
+2025-06-08 15:25:25,069 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.nutrition.parquet')
+2025-06-08 15:25:25,069 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.nutrition.parquet']
+2025-06-08 15:25:25,563 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:25,563 - WARNING - No data found for specified configuration
+2025-06-08 15:25:25,565 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.philosophy.parquet')
+2025-06-08 15:25:25,565 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.philosophy.parquet']
+2025-06-08 15:25:26,279 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:26,280 - WARNING - No data found for specified configuration
+2025-06-08 15:25:26,282 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.prehistory.parquet')
+2025-06-08 15:25:26,282 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.prehistory.parquet']
+2025-06-08 15:25:26,905 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:26,905 - WARNING - No data found for specified configuration
+2025-06-08 15:25:26,906 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.professional_accounting.parquet')
+2025-06-08 15:25:26,907 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.professional_accounting.parquet']
+2025-06-08 15:25:27,398 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:27,398 - WARNING - No data found for specified configuration
+2025-06-08 15:25:27,399 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.professional_law.parquet')
+2025-06-08 15:25:27,400 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.professional_law.parquet']
+2025-06-08 15:25:28,010 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:28,010 - WARNING - No data found for specified configuration
+2025-06-08 15:25:28,011 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.professional_medicine.parquet')
+2025-06-08 15:25:28,011 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.professional_medicine.parquet']
+2025-06-08 15:25:28,422 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:28,422 - WARNING - No data found for specified configuration
+2025-06-08 15:25:28,422 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.professional_psychology.parquet')
+2025-06-08 15:25:28,423 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.professional_psychology.parquet']
+2025-06-08 15:25:28,857 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:28,858 - WARNING - No data found for specified configuration
+2025-06-08 15:25:28,859 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.public_relations.parquet')
+2025-06-08 15:25:28,859 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.public_relations.parquet']
+2025-06-08 15:25:29,347 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:29,348 - WARNING - No data found for specified configuration
+2025-06-08 15:25:29,349 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.security_studies.parquet')
+2025-06-08 15:25:29,349 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.security_studies.parquet']
+2025-06-08 15:25:29,949 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:29,950 - WARNING - No data found for specified configuration
+2025-06-08 15:25:29,951 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.sociology.parquet')
+2025-06-08 15:25:29,951 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.sociology.parquet']
+2025-06-08 15:25:30,281 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:30,282 - WARNING - No data found for specified configuration
+2025-06-08 15:25:30,283 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.us_foreign_policy.parquet')
+2025-06-08 15:25:30,284 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.us_foreign_policy.parquet']
+2025-06-08 15:25:30,775 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:30,775 - WARNING - No data found for specified configuration
+2025-06-08 15:25:30,776 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.virology.parquet')
+2025-06-08 15:25:30,777 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.virology.parquet']
+2025-06-08 15:25:31,385 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:31,385 - WARNING - No data found for specified configuration
+2025-06-08 15:25:31,386 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=0, benchmark_file='mmlu.world_religions.parquet')
+2025-06-08 15:25:31,387 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 0, benchmarks: ['mmlu.world_religions.parquet']
+2025-06-08 15:25:31,996 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:31,996 - WARNING - No data found for specified configuration
+2025-06-08 15:25:31,997 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=5, benchmark_file='mmlu.abstract_algebra.parquet')
+2025-06-08 15:25:31,997 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 5, benchmarks: ['mmlu.abstract_algebra.parquet']
+2025-06-08 15:25:32,407 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:32,407 - WARNING - No data found for specified configuration
+2025-06-08 15:25:32,408 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=5, benchmark_file='mmlu.anatomy.parquet')
+2025-06-08 15:25:32,408 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 5, benchmarks: ['mmlu.anatomy.parquet']
+2025-06-08 15:25:32,929 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:32,929 - WARNING - No data found for specified configuration
+2025-06-08 15:25:32,930 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=5, benchmark_file='mmlu.astronomy.parquet')
+2025-06-08 15:25:32,931 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 5, benchmarks: ['mmlu.astronomy.parquet']
+2025-06-08 15:25:33,343 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:33,343 - WARNING - No data found for specified configuration
+2025-06-08 15:25:33,344 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=5, benchmark_file='mmlu.business_ethics.parquet')
+2025-06-08 15:25:33,345 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 5, benchmarks: ['mmlu.business_ethics.parquet']
+2025-06-08 15:25:34,001 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:34,001 - WARNING - No data found for specified configuration
+2025-06-08 15:25:34,002 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=5, benchmark_file='mmlu.clinical_knowledge.parquet')
+2025-06-08 15:25:34,003 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 5, benchmarks: ['mmlu.clinical_knowledge.parquet']
+2025-06-08 15:25:34,457 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:34,458 - WARNING - No data found for specified configuration
+2025-06-08 15:25:34,459 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=5, benchmark_file='mmlu.college_biology.parquet')
+2025-06-08 15:25:34,459 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 5, benchmarks: ['mmlu.college_biology.parquet']
+2025-06-08 15:25:35,076 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:35,077 - WARNING - No data found for specified configuration
+2025-06-08 15:25:35,078 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=5, benchmark_file='mmlu.college_chemistry.parquet')
+2025-06-08 15:25:35,078 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 5, benchmarks: ['mmlu.college_chemistry.parquet']
+2025-06-08 15:25:35,692 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:35,692 - WARNING - No data found for specified configuration
+2025-06-08 15:25:35,693 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=5, benchmark_file='mmlu.college_computer_science.parquet')
+2025-06-08 15:25:35,693 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 5, benchmarks: ['mmlu.college_computer_science.parquet']
+2025-06-08 15:25:36,096 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:36,097 - WARNING - No data found for specified configuration
+2025-06-08 15:25:36,098 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=5, benchmark_file='mmlu.college_mathematics.parquet')
+2025-06-08 15:25:36,098 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 5, benchmarks: ['mmlu.college_mathematics.parquet']
+2025-06-08 15:25:36,713 - ERROR - Error loading dataset: Dataset 'nlphuji/DOVE_Lite' is a gated dataset on the Hub. Visit the dataset page at https://huggingface.co/datasets/nlphuji/DOVE_Lite to ask for access.
+2025-06-08 15:25:36,713 - WARNING - No data found for specified configuration
+2025-06-08 15:25:36,714 - INFO - Starting processing for config: AnalysisConfig(repo_id='nlphuji/DOVE_Lite', model_name='allenai/OLMoE-1B-7B-0924-Instruct', language='en', shots_selected=5, benchmark_file='mmlu.college_medicine.parquet')
+2025-06-08 15:25:36,714 - INFO - Loading data for model: allenai/OLMoE-1B-7B-0924-Instruct, language: en, shots: 5, benchmarks: ['mmlu.college_medicine.parquet']

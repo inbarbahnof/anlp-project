@@ -15,19 +15,26 @@ Generate one unique MMLU-style multiple-choice question demonstrating the follow
 {capability}
 
 Please ensure the following:  
-- You will be given {instance_num} example questions for reference. Use the examples solely to understand the capability and the desired question format. The generated question must not replicate, paraphrase, or directly resemble the example questions in structure, wording, or context.  
-- The question must be clear, concise, and test conceptual or applied understanding of the capability in a realistic data science or programming context.  
+- You will be given {instance_num} example questions for reference. Use the examples solely to 
+understand the capability and the desired question format. The generated question must not 
+replicate, paraphrase, or directly resemble the example questions in structure, wording, 
+or context.  
+- The question must be clear, concise, and test conceptual or applied understanding of the 
+capability in a realistic data science or programming context.  
 
 ## Question Format  
 Your output must be a single multiple-choice question consisting of:  
 - A question stem (1–3 sentences)  
 - Exactly **4 answer choices**, labeled **A**, **B**, **C**, and **D**  
-- Clearly indicate the **correct answer** by appending a line at the end: `Answer: X`, where X is A, B, C, or D  
+- Clearly indicate the **correct answer** by appending a line at the end: `Answer: X`, where X is 
+A, B, C, or D  
 
 ## Requirements  
 - Do NOT include explanations or solutions.  
-- Ensure the question is original, plausible, and tests understanding at the level of a university data science or computer science course.  
-- Follow MMLU-style constraints: no excessive wording, each option must be plausible, and only one correct answer.  
+- Ensure the question is original, plausible, and tests understanding at the level of a 
+university data science or computer science course.  
+- Follow MMLU-style constraints: no excessive wording, each option must be plausible, and only 
+one correct answer.  
 
 ## Provided Examples  
 {example_inputs}

@@ -175,3 +175,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Heavy Data
+MMLU.json
+mmlu_questions_by_subject.json
