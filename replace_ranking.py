@@ -3,7 +3,7 @@ import json
 with open("mmlu_questions_by_subject.json", "r", encoding="utf-8") as f:
     MMLU_QUESTIONS = json.load(f)
 
-with open("mmlu_combined_scores_Meta_Llama_3_8B_Instruct.json", "r", encoding="utf-8") as f:
+with open("mmlu_scores_dove.json", "r", encoding="utf-8") as f:
     MMLU_RANKINGS = json.load(f)
 
 TARGET_MODEL = "Llama-3.1-8B-Instruct"
