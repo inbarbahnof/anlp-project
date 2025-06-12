@@ -11,7 +11,10 @@ parser.add_argument("--results_path", type = str, required = True)
 args = parser.parse_args()
 
 
-TREE = torch.load(os.path.join("Datasets/{}/EvalTree".format(args.dataset), "{}.bin".format(args.tree_path)), weights_only = False)
+# TREE = torch.load(os.path.join("Datasets/{}/EvalTree".format(args.dataset), "{}.bin".format(args.tree_path)), weights_only = False)
+with open(os.path.join("Datasets/{}/EvalTree".format(args.dataset), "{}.json".format(args.tree_path)), "r") as f:
+    TREE = json.load(f)
+
 with open(os.path.join("Datasets/{}/eval_results".format(args.dataset), args.results_path, "results.json"), "r") as fin :
     RESULTS = json.load(fin)
 
