@@ -1,9 +1,9 @@
 import json
 
-with open("mmlu_questions_by_subject.json", "r", encoding="utf-8") as f:
+with open("../mmlu_questions_by_subject.json", "r", encoding="utf-8") as f:
     MMLU_QUESTIONS = json.load(f)
 
-with open("mmlu_scores_dove.json", "r", encoding="utf-8") as f:
+with open("../mmlu_scores_dove.json", "r", encoding="utf-8") as f:
     MMLU_RANKINGS = json.load(f)
 
 TARGET_MODEL = "Llama-3.1-8B-Instruct"
@@ -41,14 +41,14 @@ def update_rankings(node):
 
 def main():
     # Load the JSON from file
-    with open("MMLU.json", "r", encoding="utf-8") as f:
+    with open("../MMLU.json", "r", encoding="utf-8") as f:
         data = json.load(f)
 
     # Update rankings
     update_rankings(data)
 
     # Save the updated JSON
-    with open("updated_output.json", "w", encoding="utf-8") as f:
+    with open("tree_with_dove_result.json", "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
 
 
